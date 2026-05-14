@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Aman Software Hub</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Poppins',sans-serif;
+}
+
+body{
+background: radial-gradient(circle at top,#0f172a,#020617);
+color:white;
+}
+
+header{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:18px 40px;
+background:rgba(255,255,255,0.05);
+backdrop-filter:blur(10px);
+position:sticky;
+top:0;
+}
+
+.logo{
+font-size:26px;
+font-weight:700;
+background:linear-gradient(90deg,#00ffff,#ff00ff);
+-webkit-background-clip:text;
+-webkit-text-fill-color:transparent;
+}
+
+.hero{
+text-align:center;
+padding:50px 20px;
+}
+
+.hero h1{
+font-size:52px;
+background:linear-gradient(90deg,#00ffff,#ff00ff,#ffcc00);
+-webkit-background-clip:text;
+-webkit-text-fill-color:transparent;
+}
+
+.container{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+gap:20px;
+padding:30px;
+}
+
+.card{
+background:rgba(255,255,255,0.05);
+padding:20px;
+border-radius:18px;
+border:1px solid rgba(255,255,255,0.1);
+transition:0.3s;
+}
+
+.card:hover{
+transform:translateY(-8px);
+border:1px solid #00ffff;
+}
+
+.btn{
+display:inline-block;
+margin-top:10px;
+padding:10px 15px;
+border-radius:10px;
+background:linear-gradient(90deg,#00c6ff,#0072ff);
+color:white;
+text-decoration:none;
+font-weight:600;
+}
+
+footer{
+text-align:center;
+padding:25px;
+color:#94a3b8;
+margin-top:30px;
+}
+
+</style>
+</head>
+
+<body>
+
+<header>
+<div class="logo">AMAN SOFTWARE</div>
+</header>
+
+<section class="hero">
+<h1>Download Premium Software</h1>
+</section>
+
+<section class="container">
+
+<!-- APP 1 -->
+<div class="card">
+<h2>MS Office Pro</h2>
+<p>Windows Software</p>
+<a class="btn" href="https://example.com/office-download" target="_blank">Download</a>
+</div>
+
+<!-- APP 2 -->
+<div class="card">
+<h2>Photoshop Pro</h2>
+<p>Photo Editing Tool</p>
+<a class="btn" href="https://example.com/photoshop-download" target="_blank">Download</a>
+</div>
+
+<!-- APP 3 -->
+<div class="card">
+<h2>Filmora</h2>
+<p>Video Editor</p>
+<a class="btn" href="https://example.com/filmora-download" target="_blank">Download</a>
+</div>
+
+<!-- APP 4 -->
+<div class="card">
+<h2>WinRAR</h2>
+<p>File Compression Tool</p>
+<a class="btn" href="https://example.com/winrar-download" target="_blank">Download</a>
+</div>
+
+</section>
+
+<footer>
+© 2026 Aman Software Hub | All Rights Reserved
+</footer>
+
+</body>
+</html>
